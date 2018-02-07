@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\domain\domain.csproj">
+      <Project>{83C6135E-2B0F-4AEA-8FA9-BA172752FAF7}</Project>
+      <Name>domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\gui\gui.csproj" />
+  </ItemGroup>
+</Project>

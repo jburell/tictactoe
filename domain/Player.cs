@@ -1,6 +1,6 @@
 ﻿namespace domain
 {
-    public enum Turn
+    public enum Player
     {
         PlayerX, PlayerO
     }
