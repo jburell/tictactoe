@@ -21,6 +21,6 @@ namespace app
 
         public TileState[,] GameTiles { get; set; }
 
-        public Winner Winner { get; }
+        public Winner Winner { get; set; }
     }
 }

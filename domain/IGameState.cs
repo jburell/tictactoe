@@ -8,7 +8,7 @@ namespace domain
         Player PlayerTurn { get; set; }
         bool IsGameOver { get; set; }
         TileState[,] GameTiles { get; set; }
-        Winner Winner { get; }
+        Winner Winner { get; set; }
     }
 
     public enum Winner
